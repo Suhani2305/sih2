@@ -124,7 +124,7 @@ export default function UploadContent() {
     cardTitle: {
       fontSize: '1.5rem',
       fontWeight: '600',
-      color: '#111827',
+      color: '#000000',
       marginTop: 0,
       marginBottom: '1.5rem',
       display: 'flex',
@@ -142,7 +142,7 @@ export default function UploadContent() {
     label: {
       fontSize: '0.95rem',
       fontWeight: '600',
-      color: '#374151',
+      color: '#000000',
       marginBottom: '0.5rem'
     },
     input: {
@@ -151,7 +151,8 @@ export default function UploadContent() {
       border: '2px solid #E5E7EB',
       fontSize: '1rem',
       transition: 'all 0.2s ease',
-      backgroundColor: '#ffffff'
+      backgroundColor: '#ffffff',
+      color: '#000000'
     },
     inputFocus: {
       borderColor: '#4F46E5',
@@ -165,7 +166,8 @@ export default function UploadContent() {
       fontSize: '1rem',
       transition: 'all 0.2s ease',
       backgroundColor: '#ffffff',
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: '#000000'
     },
     textarea: {
       padding: '0.75rem 1rem',
@@ -175,7 +177,8 @@ export default function UploadContent() {
       transition: 'all 0.2s ease',
       backgroundColor: '#ffffff',
       resize: 'vertical',
-      minHeight: '100px'
+      minHeight: '100px',
+      color: '#000000'
     },
     button: {
       backgroundColor: '#4F46E5',
@@ -229,12 +232,12 @@ export default function UploadContent() {
     contentTitle: {
       fontSize: '1.125rem',
       fontWeight: '600',
-      color: '#111827',
+      color: '#000000',
       marginBottom: '0.5rem'
     },
     contentMeta: {
       fontSize: '0.875rem',
-      color: '#6B7280',
+      color: '#000000',
       marginBottom: '0.25rem'
     },
     aiTag: {
@@ -267,7 +270,7 @@ export default function UploadContent() {
     },
     emptyState: {
       textAlign: 'center',
-      color: '#6B7280',
+      color: '#000000',
       fontSize: '1rem',
       padding: '3rem'
     }
